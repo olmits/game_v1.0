@@ -14,7 +14,12 @@ class Game:
         self.bg = pygame.image.load(os.path.join("game_assets", "bg", "bg.png"))
 
     def run(self):
+        """
+
+        :return:
+        """
         run = True
+
         clock = pygame.time.Clock()
         while run:
             clock.tick(60)
