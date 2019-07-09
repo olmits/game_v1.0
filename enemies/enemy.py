@@ -37,7 +37,6 @@ class Enemy:
         if X <= self.x + self.width and X >= self.x:
             if Y <= self.y + self.height and Y >= self.y:
                 return True
-
         return False
 
     def move(self):
